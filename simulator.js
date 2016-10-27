@@ -2,14 +2,6 @@
 // * Created by Pavle Paunovic on 10/21/2016.
 // */
 //
-
-
-function Unit (opts) {
-    for (var i in opts) {
-        if (opts.hasOwnProperty(i) && opts[i] !== undefined) this[i] = opts[i];
-    }
-}
-
 function Unit (opts) {
     for (var i in opts) {
         if (opts.hasOwnProperty(i) && opts[i] !== undefined) this[i] = opts[i];
